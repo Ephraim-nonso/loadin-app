@@ -1,0 +1,49 @@
+.register {
+  width: 415px;
+  height: 589px;
+  margin: 0 auto;
+  text-align: center;
+  background: #e0ebff;
+  border-radius: 8px;
+  padding-bottom: 30px;
+}
+
+.register h3,
+p {
+  padding: 20px 20px;
+  color: #1c418c;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+form {
+  display: grid;
+  grid-gap: 20px;
+  text-align: left;
+  margin-left: 12px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+.register input,
+button {
+  width: 388px;
+  height: 50px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.register input:focus {
+  border: 3px solid #1c418c;
+}
+
+.register button {
+  color: #fff;
+  font-weight: 600;
+  background-color: #1c418c;
+}

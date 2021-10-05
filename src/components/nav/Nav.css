@@ -1,0 +1,41 @@
+/* Navigation styling */
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 125px;
+  padding: 20px;
+  margin: 10px -90px 0 -70px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  display: inline-block;
+  margin: 0 40px;
+}
+
+li:hover {
+  color: #1c418c;
+  cursor: pointer;
+}
+
+nav .btn-sigin {
+  background-color: #1c418c;
+  border-radius: 4px;
+  color: #fff;
+  padding: 8px 12px;
+  margin: 0 40px;
+}
+
+nav .btn-sigin:hover {
+  color: #1c418c;
+  background-color: #fff;
+  border: 1px solid #1c418c;
+  cursor: pointer;
+}

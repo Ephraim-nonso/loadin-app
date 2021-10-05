@@ -1,0 +1,115 @@
+.homepage {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Body of content styling */
+.body-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* width: 100vw; */
+  height: 80vh;
+  margin: auto 250px;
+}
+
+/* brand info section and Vector */
+
+.app-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.app-info img {
+  width: 50%;
+}
+
+.info {
+  font-size: 40px;
+  margin: -100px 50px 0 50px;
+  width: 600px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 166%;
+}
+
+.info img {
+  width: 60%;
+  height: 50%;
+}
+
+.app-info .btn {
+  background-color: #ff0000;
+  color: #fff;
+  border-radius: 50px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.app-info .btn:hover {
+  cursor: pointer;
+}
+
+.app-info .btn img {
+  width: 15%;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+/* Styling for the services rendered */
+.service-info {
+  position: relative;
+  margin-top: -50px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(10px, 1fr));
+  grid-gap: 40px;
+}
+
+.service:hover {
+  background-color: #fff;
+  border: 1px solid #e0ebff;
+  cursor: pointer;
+}
+
+.service {
+  background-color: #e0ebff;
+  border-radius: 8px;
+  padding: 50px;
+  text-align: center;
+  color: #1c418c;
+}
+
+/* Footer and help styling */
+.help {
+  position: absolute;
+  bottom: -170px;
+  right: -10px;
+  font-weight: bolder;
+}
+
+.help h1 {
+  color: #fff;
+  background-color: #1c418c;
+  border-radius: 100%;
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+
+.help h1:hover {
+  color: #1c418c;
+  border: 1px solid #1c418c;
+  background-color: #fff;
+}
+
+.help:hover {
+  cursor: pointer;
+}
