@@ -1,10 +1,12 @@
 import React from "react";
 import "./Login.css";
 import { Link } from "react-router-dom";
+import Navbar from "../nav/Navbar";
 
 export const Login = () => {
   return (
     <div>
+      <Navbar />
       <section className="login">
         <h3>Login to your account</h3>
 

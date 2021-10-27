@@ -6,10 +6,12 @@ import play from "../images/play.png";
 import bulb from "../images/bulb.png";
 import phone from "../images/phone.png";
 import cable from "../images/cable.png";
+import Navbar from "../nav/Navbar";
 
 export const HomePage = () => {
   return (
     <div className="homepage">
+       <Navbar />
       <section className="body-content">
         <div className="app-info">
           <img src={avatar} alt="avatar" />

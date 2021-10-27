@@ -7,6 +7,7 @@ nav {
   height: 125px;
   padding: 20px;
   margin: 10px -90px 0 -70px;
+  /* border: 1px solid red; */
 }
 
 ul {
@@ -21,7 +22,7 @@ li {
 }
 
 li:hover {
-  color: #1c418c;
+  background: #ccd4e6;
   cursor: pointer;
 }
 

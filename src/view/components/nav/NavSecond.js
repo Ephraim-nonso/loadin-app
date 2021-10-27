@@ -1,10 +1,9 @@
-import React from "react";
+import React from 'react';
 import "./Nav.css";
 import { Link } from "react-router-dom";
 import Logo from "../images/logo.png";
-import siginLogo from "../images/log-in.png";
 
-const Navbar = () => {
+const NavSecond = () => {
   return (
     <nav>
       <div className="logo">
@@ -29,14 +28,9 @@ const Navbar = () => {
             <p>Contact Us</p>
           </Link>
         </li>
-        <Link to="/login" style={{ textDecoration: "none" }}>
-          <div className="btn-sigin">
-            <img src={siginLogo} alt="sign-in" /> Sign In
-          </div>
-        </Link>
       </ul>
     </nav>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default NavSecond
