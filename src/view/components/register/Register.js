@@ -1,10 +1,12 @@
 import React from "react";
 import "./Register.css";
 import { Link } from "react-router-dom";
+import Navbar from "../nav/Navbar";
 
 const Register = () => {
   return (
     <div>
+      <Navbar />
       <section className="register">
         <h3>Create an account</h3>
 
