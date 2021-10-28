@@ -14,6 +14,9 @@
   padding: 50px 20px;
 }
 
+.about-texts h2 {
+  margin-left: 20px;
+}
 
 .about-body > .about-image {
   flex-basis: 25%;
@@ -24,6 +27,17 @@
   height: 100%;
 }
 
+/* About page media queries */
+@media screen and (max-width: 860px) {
+  .about-body {
+    flex-direction: column;
+  }
+
+  .about-image {
+    margin-top: 70px;
+  }
+}
+
 /* FAQS PAGE */
 .faq-texts {
   width: 80%;
@@ -31,6 +45,10 @@
   background: #d9dfeb;
   border-radius: 10px;
   padding: 50px 20px;
+}
+
+.faq-texts h2 {
+  margin-left: 20px;
 }
 
 /* CONTACT-US PAGE */
@@ -44,7 +62,6 @@
 
 .contact-left {
   flex-basis: 40%;
-  /* border: solid red; */
 }
 
 .contact-left > h3 {
@@ -81,5 +98,16 @@ form > button {
   text-transform: uppercase;
   background: blue;
   color: #fff;
+}
+
+/* contact-us page media queries */
+@media screen and (max-width: 869px) {
+  .contact-body {
+    flex-direction: column;
+  }
+
+  .contact-right {
+    margin-top: 60px;
+  }
 }
 

@@ -11,7 +11,7 @@ import Navbar from "../nav/Navbar";
 export const HomePage = () => {
   return (
     <div className="homepage">
-       <Navbar />
+      <Navbar />
       <section className="body-content">
         <div className="app-info">
           <img src={avatar} alt="avatar" />

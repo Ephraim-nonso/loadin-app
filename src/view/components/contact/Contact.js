@@ -19,7 +19,7 @@ const Contact = () => {
         </div>
 
         <div className="contact-right">
-          <img />
+          <img alt="contact"/>
 
           <div className="contact-info">
             <div>
