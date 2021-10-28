@@ -1,6 +1,10 @@
 import React from 'react';
 import "../about/styles.css";
 import NavSecond from '../nav/NavSecond';
+import contact from "../images/contact.png";
+import location from "../images/location.png";
+import call from "../images/call.png";
+import message from "../images/message.png";
 
 const Contact = () => {
   return (
@@ -19,19 +23,19 @@ const Contact = () => {
         </div>
 
         <div className="contact-right">
-          <img alt="contact"/>
+          <img src={contact} alt="contact"/>
 
           <div className="contact-info">
             <div>
-              {/* icon */}
+              <img src={location} alt="location"/>
               <p>30, Ajose Street, VI Lagos, Nigeria</p>
             </div>
             <div>
-              {/* icon */}
+            <img src={message} alt="message"/>
               <p>contact@loadinweb.com</p>
             </div>
             <div>
-              {/* icon */}
+              <img src={call} alt="call"/>  
               <p>080-0000-0002-1</p>
             </div>
           </div>

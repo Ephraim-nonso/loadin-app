@@ -8,7 +8,9 @@ const Faq = () => {
       <NavSecond />
       <div className="faq-body">
         <div className="faq-texts">
-          <h2>faqs</h2>
+          <div className="title">
+            <h2>FAQs</h2>
+          </div>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius scelerisque 
             massa lobortis enim. Sit a lacus venenatis facilisis.

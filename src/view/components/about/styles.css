@@ -9,13 +9,20 @@
 
 .about-body > .about-texts {
   flex-basis: 60%;
-  background: #d9dfeb;
+  background: #E0EBFF;
   border-radius: 10px;
   padding: 50px 20px;
 }
 
 .about-texts h2 {
+  color: #1C418C;
   margin-left: 20px;
+  font-size: 31px;
+}
+
+.about-texts p {
+  color: #000;
+  font-size: 21px;
 }
 
 .about-body > .about-image {
@@ -42,13 +49,24 @@
 .faq-texts {
   width: 80%;
   margin: 50px auto;
-  background: #d9dfeb;
+  background: #E0EBFF;
   border-radius: 10px;
   padding: 50px 20px;
 }
 
+.faq-texts > .title {
+  text-align: center;
+}
+
 .faq-texts h2 {
   margin-left: 20px;
+  color: #1C418C;
+  font-size: 31px;
+}
+
+.faq-texts p {
+  color: #000;
+  font-size: 21px;
 }
 
 /* CONTACT-US PAGE */
@@ -71,20 +89,20 @@
 }
 
 form {
-  width: 90%;
+  width: 95%;
 }
 
 form > input {
   width: 100%;
   border: none;
-  background: #d9dfeb;
+  background: #E0EBFF;
   padding: 16px;
   outline: none;
   border-radius: 8px;
 }
 
 form > textarea {
-  background: #d9dfeb;
+  background: #E0EBFF;
   padding: 16px;
   border: none;
   border-radius: 8px;
@@ -96,14 +114,42 @@ form > textarea {
 form > button {
   width: 100%;
   text-transform: uppercase;
-  background: blue;
+  background: #1C418C;
   color: #fff;
+}
+
+.contact-right {
+  flex-basis: 45%;
+}
+
+.contact-right > img {
+  width: 100%;
+}
+
+.contact-info {
+  margin-top: 30px;
+}
+
+.contact-info > div {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  line-height: 15px;
+}
+
+.contact-info > div > p {
+  color: #000;
+  font-size: 18px;
 }
 
 /* contact-us page media queries */
 @media screen and (max-width: 869px) {
   .contact-body {
     flex-direction: column;
+  }
+
+  .contact-left {
+    width: 100%;
   }
 
   .contact-right {

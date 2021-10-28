@@ -35,6 +35,11 @@ const Navbar = () => {
           </div>
         </Link>
       </ul>
+      {/* <div className="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div> */}
     </nav>
   );
 };

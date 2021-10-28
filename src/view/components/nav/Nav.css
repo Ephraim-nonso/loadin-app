@@ -22,8 +22,12 @@ li {
 }
 
 li:hover {
-  background: #ccd4e6;
+  background: #B5CEFF;
   cursor: pointer;
+}
+
+li p {
+  color: #000;
 }
 
 nav .btn-sigin {
@@ -39,4 +43,36 @@ nav .btn-sigin:hover {
   background-color: #fff;
   border: 1px solid #1c418c;
   cursor: pointer;
+}
+
+.hamburger {
+  height: 50px;
+  width: 50px;
+  border: 1px solid #E0EBFF;
+  border-radius: 10px;
+  display: none;
+  position: fixed;
+  cursor: pointer;
+  top: 45px;
+  right: 50px;
+}
+
+.hamburger > div {
+  height: 2px;
+  width: 80%;
+  background: #1C418C;
+}
+
+@media  screen and (max-width: 900px) {
+
+  li {
+    display: none;
+  }
+
+  .hamburger{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
 }
